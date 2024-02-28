@@ -16,6 +16,7 @@ function App() {
       <Nav/>
       <Routes>
 
+        <Route index element={<Hero/>} />
         <Route path="/" element={<Hero/>} />
         <Route path="/Playerinfo" element={<Main/>} />
         <Route path="/Matches" element={<Matches/>} />
