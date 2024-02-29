@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Fantasy-Football/static/css/main.1e06c8ba.css",
-    "main.js": "/Fantasy-Football/static/js/main.c726a09d.js",
+    "main.js": "/Fantasy-Football/static/js/main.acb12e5a.js",
     "static/media/Footballbackground.jpg": "/Fantasy-Football/static/media/Footballbackground.e9617b44a11538c87760.jpg",
     "static/media/RM.png": "/Fantasy-Football/static/media/RM.d339751a6a85dbbe5cd4.png",
     "static/media/BARCA.png": "/Fantasy-Football/static/media/BARCA.094a3486c19a27e4b022.png",
@@ -9,10 +9,10 @@
     "static/media/tom_brady 1.png": "/Fantasy-Football/static/media/tom_brady 1.a9159a27c9be759cc066.png",
     "index.html": "/Fantasy-Football/index.html",
     "main.1e06c8ba.css.map": "/Fantasy-Football/static/css/main.1e06c8ba.css.map",
-    "main.c726a09d.js.map": "/Fantasy-Football/static/js/main.c726a09d.js.map"
+    "main.acb12e5a.js.map": "/Fantasy-Football/static/js/main.acb12e5a.js.map"
   },
   "entrypoints": [
     "static/css/main.1e06c8ba.css",
-    "static/js/main.c726a09d.js"
+    "static/js/main.acb12e5a.js"
   ]
 }
