@@ -16,14 +16,14 @@ const Footer = () => {
 				<Row>
 					<Column>
 						<Heading>About Us</Heading>
-						<Link to="/"  className="text-white hover:text-yellow-400 transition duration-200 ease-out cursor-pointer">Home</Link>
+						<Link to="/Fantasy-Football"  className="text-white hover:text-yellow-400 transition duration-200 ease-out cursor-pointer">Home</Link>
           				<Link to="/Matches"  className="text-white hover:text-yellow-400 transition duration-200 ease-out cursor-pointer">Matches</Link>
           				<Link to="/ScoreCard"  className="text-white hover:text-yellow-400 transition duration-200 ease-out cursor-pointer">Scores</Link>
           				<Link to="/Player"  className="text-white hover:text-yellow-400 transition duration-200 ease-out cursor-pointer">Player Info</Link>
 					</Column>
 					<Column>
                         <Heading>Services</Heading>
-                        <Link to="/"  className="text-white hover:text-yellow-400 transition duration-200 ease-out cursor-pointer">Home</Link>
+                        <Link to="/Fantasy-Football"  className="text-white hover:text-yellow-400 transition duration-200 ease-out cursor-pointer">Home</Link>
           				<Link to="/Matches"  className="text-white hover:text-yellow-400 transition duration-200 ease-out cursor-pointer">Matches</Link>
           				<Link to="/ScoreCard"  className="text-white hover:text-yellow-400 transition duration-200 ease-out cursor-pointer">Scores</Link>
           				<Link to="/Player"  className="text-white hover:text-yellow-400 transition duration-200 ease-out cursor-pointer">Player Info</Link>

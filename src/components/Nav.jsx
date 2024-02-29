@@ -16,12 +16,12 @@ export const Nav = () => {
   return (
     <nav className="bg-black">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <Link to="/" className="flex items-start">
+        <Link to="/Fantasy-Football" className="flex items-start">
           <img src={icon} className="h-8 justify-start mr-5" alt="Football Logo" />
           <span className="self-center text-xl whitespace-nowrap dark:text-white">Fantasy Football</span>
         </Link>
         <div className="hidden md:flex space-x-4 text-white">
-          <Link to="/" onClick={closeSidebar} className="hover:text-yellow-400 transition duration-200 ease-out cursor-pointer">Home</Link>
+          <Link to="/Fantasy-Football" onClick={closeSidebar} className="hover:text-yellow-400 transition duration-200 ease-out cursor-pointer">Home</Link>
           <Link to="/Matches" onClick={closeSidebar} className="hover:text-yellow-400 transition duration-200 ease-out cursor-pointer">Matches</Link>
           <Link to="/ScoreCard" onClick={closeSidebar} className="hover:text-yellow-400 transition duration-200 ease-out cursor-pointer">Scores</Link>
           <Link to="/Player" onClick={closeSidebar} className="hover:text-yellow-400 transition duration-200 ease-out cursor-pointer">Player Info</Link>
@@ -47,7 +47,7 @@ export const Nav = () => {
           {/* Sidebar content */}
           <div className="flex-shrink flex justify-center items-center">
             <div className="p-8 mt-10 text-center ">
-              <Link to="/" onClick={closeSidebar} className="block py-4">Home</Link>
+              <Link to="/Fantasy-Football" onClick={closeSidebar} className="block py-4">Home</Link>
               <Link to="/Matches" onClick={closeSidebar} className="block py-4">Matches</Link>
               <Link to="/ScoreCard" onClick={closeSidebar} className="block py-4">Scores</Link>
               <Link to="/Playerinfo" onClick={closeSidebar} className="block py-4">Player Info</Link>
